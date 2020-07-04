@@ -37,4 +37,4 @@ def solve_adjoint_eq(p_end, U, Q, V, T, num_steps, params):
 
 	P.reverse()
 
-	return P
+	return np.asarray(P)
